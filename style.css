@@ -4,19 +4,19 @@
     padding: 0;
     box-sizing: border-box;
  }
- 
+
 /* Styles for the custom header */
 .custom-header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding:  0;
     text-align: center;
     position: relative;
     
 }
 .custom-header .header {
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: 56.25vw;
     background-image:  url(photos/headers.jpg);
    
     background-size: cover;
@@ -84,8 +84,7 @@
     align-items: center;
 }
 .info img{
-    min-width: 400px;
-    min-height: 400px;
+    
     margin: 0px;
     padding :0px
 }
@@ -149,7 +148,8 @@
 
 /* Styles for the custom cards */
 .custom-card {
-    background-color: #fff;
+    background-color: #3b3b3b;
+    color: #f8f9fa;
     border: 1px solid #f8c710;
     border-radius: 4px;
     margin: 10px;
@@ -162,26 +162,27 @@
     transition: 1s;
 }
 .custom-card img {
-    width: 100%;
-    height: 350px;
+    
     border-radius: 10px;
 }
 
 .custom-card .custom-card-title {
     font-size: 24px;
-    color: #333;
+    color: #f7f5f5;
 }
 
 .custom-card .custom-card-description {
     font-size: 16px;
-    color: #555;
+    color: #faf8f8;
     margin-bottom: 20px;
 }
 .custom-card div{
     display: flex;
     justify-content: space-between;
 }
-
+.custom-card a{
+    color: #faf8f8;
+}
 
 /* Styles for the custom footer */
 .custom-footer {
@@ -204,6 +205,7 @@
     color: #007bff;
     text-decoration: none;
 }
+/* styling the ascenseur */
 .ascenseur{
     width: 80px;
     height: 80px;
@@ -218,10 +220,9 @@
     text-decoration: none;
     color: black;
     font-weight: 800;
-    background-color: #007bff;
 }
 .ascenseur:hover{
     color: black;
     font-weight: 800;
-    background-color: #f8c710;
+    background-color: #3b3b3b;
 }
